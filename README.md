@@ -1,27 +1,34 @@
-# Application
+# Angular Todo-App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
+This simple application is built in Angular V14, that has a complete todo app,User Crud, routing, lazy-loading, template driven forms, reactive forms, event-emitters, component interactions, services, and bootstrap usage.
+This simple app has covered all the topics for practice purposes.
 
-## Development server
+## Run & Install
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Clone the repository from https://github.com/sayedsadat344/Angular-todo-app-with-lazyloading.git<br />
+run `npm install`<br />
+run `ng serve`<br />
+<br />
 
-## Code scaffolding
+## Screen Shots
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Home page : List of universities in Afghanistan (API call)<br />
+![the screen 1](https://github.com/sayedsadat344/Angular-todo-app-with-lazyloading/blob/master/screencapture-localhost-4200-2022-08-23-14_55_17.png)
 
-## Build
+Todo List & form Page <br />
+![The Sceen2](https://github.com/sayedsadat344/Angular-todo-app-with-lazyloading/blob/master/screencapture-localhost-4200-todos-2022-08-23-14_56_53.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+User page : List of users<br />
+![screen 3](https://github.com/sayedsadat344/Angular-todo-app-with-lazyloading/blob/master/screencapture-localhost-4200-users-2022-08-23-14_55_53.png)
 
-## Running unit tests
+User Form page : User form (Reactive from) and parent-child component concept<br />
+![screen 4](https://github.com/sayedsadat344/Angular-todo-app-with-lazyloading/blob/master/screencapture-localhost-4200-users-add-2022-08-23-14_56_03.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+User form page : Form validation<br />
+![](https://github.com/sayedsadat344/Angular-todo-app-with-lazyloading/blob/master/screencapture-localhost-4200-users-add-2022-08-23-14_56_14.png)
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+

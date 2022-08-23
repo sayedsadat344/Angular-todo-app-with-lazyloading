@@ -1,0 +1,35 @@
+<form (ngSubmit)="submitForm()" #form="ngForm">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">First Name</label>
+    <input
+      type="text"
+      class="form-control {{
+        !first.valid && first.touched ? 'is-invalid' : ''
+      }}"
+      id="exampleInputEmail1"
+      required
+      ngModel
+      name="first"
+      #first="ngModel"
+    />
+  </div>
+
+  <small [hidden]="first.valid || first.untouched" class="text-danger">
+    first name required
+  </small>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Last Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="exampleInputPassword1"
+      ngModel
+      name="last"
+    />
+  </div>
+
+  <button type="submit" [disabled]="!form.valid" class="btn btn-primary">
+    Submit
+  </button>
+</form>
